@@ -1,0 +1,205 @@
+{
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu-nav {
+    padding: 10px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.Contenedor1{
+    padding: 10px;
+    text-align: center;
+    background-color: royalblue;
+    height: 100px;
+    margin: 10px;
+}
+.Contenedor2{
+    padding: 10px;
+    text-align: center;
+    background-color: aqua;
+    height: 100px;
+    margin: 10px;
+}
+.triple {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.contenedor3{
+    width: 100%;
+    gap:10px;
+    flex: 2;
+    background-color: darkred;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.Titulo{
+    gap:10px;
+    background-color: palevioletred;
+    padding: 10px;
+    height: 50px;
+}
+.contenedor4{
+    gap:10px;
+    background-color: red;
+    padding: 10px;
+    height: 100px;
+}
+.contenedor5{
+    gap:10px;
+    background-color: indianred;
+    padding: 10px;
+    height: 100px;
+}
+
+.doble {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: ;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.contenedor6{
+    gap:10px;
+    background-color: darkred;
+    padding: 10px;
+    width: 100%;
+    margin-right: 10px;
+}
+.Titulo2{
+    gap:10px;
+    background-color: palevioletred;
+    padding: 10px;
+    height: 100px;
+}
+.contenedor7{
+    gap:10px;
+    background-color: red;
+    padding: 10px;
+    height: 100px;
+}
+.slider-container{
+    display: flex;
+    height: 100%;
+    padding: 10px;
+}
+.cards{
+    display: flex;
+}
+.card1, .card2, .card3, .card4 {
+    padding: 10px;
+    flex: 4;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: cadetblue;
+    
+}
+.login-container {
+    background-color: #333; / Fondo gris oscuro para el formulario /
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.3); / Sombra anaranjada /
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.login-container input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #555;
+    color: #fff;
+}
+
+.login-container input::placeholder {
+    color: #ccc;
+}
+
+.login-container button {
+    background-color: #ff8c00;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.login-container button:hover {
+    background-color: #e67e22;
+    border-radius: 10px;
+}
+.calendar-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table.calendar {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table.calendar th, table.calendar td {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+table.calendar th {
+    background-color: black;
+    color: white;
+}
+
+table.calendar td {
+    background-color: #ccc;
+}
+
+table.calendar td:hover {
+    background-color: #e0f7fa;
+    cursor: pointer;
+}
+
+table.calendar td.empty {
+    background-color: orange;
+}
+
+table.calendar td.active {
+    background-color: orange;
+    color: white;
+}

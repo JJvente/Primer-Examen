@@ -1,0 +1,117 @@
+{
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu-nav {
+    padding: 10px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.Contenedor1{
+    padding: 10px;
+    text-align: center;
+    background-color: royalblue;
+    height: 100px;
+    margin: 10px;
+}
+.Contenedor2{
+    padding: 10px;
+    text-align: center;
+    background-color: aqua;
+    height: 100px;
+    margin: 10px;
+}
+.triple {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.contenedor3{
+    width: 100%;
+    gap:10px;
+    flex: 2;
+    background-color: darkred;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.Titulo{
+    gap:10px;
+    background-color: palevioletred;
+    padding: 10px;
+    height: 50px;
+}
+.contenedor4{
+    gap:10px;
+    background-color: red;
+    padding: 10px;
+    height: 100px;
+}
+.contenedor5{
+    gap:10px;
+    background-color: indianred;
+    padding: 10px;
+    height: 100px;
+}
+
+.doble {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: ;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.contenedor6{
+    gap:10px;
+    background-color: darkred;
+    padding: 10px;
+    width: 100%;
+    margin-right: 10px;
+}
+.Titulo2{
+    gap:10px;
+    background-color: palevioletred;
+    padding: 10px;
+    height: 100px;
+}
+.contenedor7{
+    gap:10px;
+    background-color: red;
+    padding: 10px;
+    height: 100px;
+}
+.slider-container{
+    display: flex;
+    height: 100%;
+    padding: 10px;
+}
+.cards{
+    display: flex;
+}
+.card1, .card2, .card3, .card4 {
+    padding: 10px;
+    flex: 4;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: cadetblue;
+    
+}
